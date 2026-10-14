@@ -1,0 +1,82 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Tech Event - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationform">
+
+        <label>NAME:</label>
+        <input id="name" type="text" placeholder="Enter name">
+        <br>
+        <span id="usernameError" class="error"></span>
+        <br>
+
+        <label>EMAIL:</label>
+        <input id="email" type="email" placeholder="Email">
+        <br>
+        <span id="emailError" class="error"></span>
+        <br>
+
+        <label>PHONE:</label>
+        <input id="phone" type="tel" placeholder="Phone number">
+        <br>
+        <span id="phoneError" class="error"></span>
+        <br>
+
+        <label>PASSWORD:</label>
+        <input id="password" type="password" placeholder="Password">
+        <br>
+        <span id="passwordError" class="error"></span>
+        <br>
+
+        <label>CONFIRM PASSWORD:</label>
+        <input id="cpassword" type="password" placeholder="Re-enter password">
+        <br>
+        <span id="cpasswordError" class="error"></span>
+        <br>
+
+        <label>YEAR:</label>
+        <input type="radio" name="Y" value="I"> I
+        <input type="radio" name="Y" value="II"> II
+        <input type="radio" name="Y" value="III"> III
+        <input type="radio" name="Y" value="IV"> IV
+        <br><br>
+
+        <label>SKILLS:</label>
+        <input type="checkbox" name="skills" value="C++"> C++
+        <input type="checkbox" name="skills" value="Python"> Python
+        <input type="checkbox" name="skills" value="Django"> Django
+        <input type="checkbox" name="skills" value="Java"> Java
+        <input type="checkbox" name="skills" value="Git"> Git
+        <input type="checkbox" name="skills" value="Linux"> Linux
+        <input type="checkbox" name="skills" value="Web3"> Web3
+        <input type="checkbox" name="skills" value="Blockchain"> Blockchain
+        <br><br>
+
+        <label>BRANCH:</label>
+        <select id="branch" name="branch">
+            <option value="CSE">CSE</option>
+            <option value="ISE">ISE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        <br><br>
+
+        <label>PROFILE PICTURE:</label>
+        <input type="file" id="profilePicture" accept="image/png">
+        <br><br>
+
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+
+    </form>
+</body>
+</html>
+```

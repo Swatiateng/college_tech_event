@@ -11,8 +11,7 @@ span{
     background-color: rgb(2, 26, 22);
     color: azure;
     font-size: 30px;
-      border-radius: 10px;
-    border: 2px solid rgb(170, 12, 38);
+    
     
     
 }
@@ -21,10 +20,13 @@ span{
     background-color: rgb(6, 39, 33);
     color: azure;
     font-size: 30px;
+      border-radius: 10px;
+    
    
 }
 div.event1:hover{
     background-color: rgb(187, 18, 119);
+    border: 2px solid rgb(170, 12, 38);
     
   
 }
